@@ -3,7 +3,7 @@ import axios from 'axios'
 import store from '../store/index'
 
 const AxiosBackoffice = axios.create({
-    baseURL: 'http://localhost:8000/api/auth'
+    baseURL: 'http://actualitetogo.com/api/auth'
 })
 
 AxiosBackoffice.interceptors.request.use(config => {
